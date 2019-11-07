@@ -4,14 +4,14 @@ import Card from '../Card.js';
 
 
 
-
+/*En este caso necesitaria usar la variable Producto declarada en Card, en donde dice Producto a comprar:*/
 
 
 function Carrito(){
     return(
         <div className="Carrito-Card">
             <div className="Detalle-Prod">
-                <p>Compra Exitosa </p>
+                <p>Producto a comprar: </p> 
                 
             </div>
             <div className="Costos"></div>

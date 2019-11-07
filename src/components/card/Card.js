@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './Card.css';
 import Carrito from './carrito/Carrito.js';
 
-
+/* Explicación: lo que quiero hacer es poder utilizar la info de este componente(Card), como ser
+precio, producto y la cantidad que seria {compra}, esa info la quiero utilizar en el componente Carrito*/
 
 function Card(){
 
