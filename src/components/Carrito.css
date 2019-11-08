@@ -1,8 +1,9 @@
 .Carrito-Card{
     z-index: 1;
     display: flex;
-    width: 1000px;
-    height: 150px;
+    float: right;
+    width: 200px;
+    height: 400px;
     padding: 20px auto;
     margin: 20px auto;
     border-top: solid 2px #FF4500;

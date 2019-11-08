@@ -1,6 +1,6 @@
 import React from 'react';
 import './Carrito.css';
-import Card from '../Card.js';
+
 
 
 

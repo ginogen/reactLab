@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -13,4 +17,10 @@
   font-size: calc(10px + 2vmin);
   color: #09d3ac;
 }
-
+.Nav{
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  background-color: #282c34;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.30);
+}
