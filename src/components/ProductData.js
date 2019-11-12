@@ -6,7 +6,7 @@ const ProductData = [{
 },
 {
     img:"https://www.fitnesstocks.com/2206-home_default/bici-electrica-funbike-oops.jpg",
-    title: "BICI ELÉCTRICA FUNBIKE",
+    title: "Bici Electrica FunBike",
     price: "$70,000",
     description: "Bici eléctrica plegable ligera, compacta y plegable. Es perfecta para desplazarte por tu ciudad o pueblo. Ya sea para ir al trabajo o para seguir tu día a día. A destacar los 14kg de peso."
 }

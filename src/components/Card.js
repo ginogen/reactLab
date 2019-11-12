@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Card.css';
+import './App.css';
 
 
 /* Explicación: lo que quiero hacer es poder utilizar la info de este componente(Card), como ser
@@ -7,8 +7,7 @@ precio, producto y la cantidad que seria {compra}, esa info la quiero utilizar e
 
 function Card(props){
 
-    // const precio = ['$58,000']
-    // const producto = ['Monopatin Xiaomi Mi M365 Electrico']
+    
 
     const[compra, estadoCompra] = useState(0)
     const compraAgregar = () => {
@@ -48,6 +47,7 @@ function Card(props){
 
 // -Como se puede optimizar?
 // - Pasar data entre componentes?
+// - Como renderizar diferentes componentes if?
 
 
 export default Card;

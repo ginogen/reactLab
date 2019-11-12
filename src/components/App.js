@@ -2,10 +2,10 @@ import React from 'react';
 
 import './App.css';
 import Card from './Card';
-import Carrito from './Carrito';
+
 import Nav from './Nav';
 import ProductData from './ProductData';
-
+import Button from './Button';
 
 
 
@@ -21,7 +21,7 @@ function App() {
       <div style={{display: 'inline-flex', margin: 'auto', padding:'10px', flexWrap: 'nowrap'}}>
       {Products}
       </div>
-      
+      <Button />
       
     </div>
   );
