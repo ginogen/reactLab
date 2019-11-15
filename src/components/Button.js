@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
+
 
 
 function Button() {
     return(
-        <Link 
-            to='./Checkout'
+        <button 
+            
             style={{
                 background: '#FF4500',
                 width: '20%',
@@ -16,7 +16,7 @@ function Button() {
                 borderStyle: 'solid',
                 borderWidth: '2px',
                 padding: '10px 40px',
-                margin: '15px auto',
+                margin: '15px 40px 15px 15px',
                 position: 'relative',
                 float: 'right',
                 cursor: 'pointer',
@@ -25,8 +25,8 @@ function Button() {
             
             >
             Finalizar Compra
-        </Link>
+        </button>
     )
 }
 
-export default Button
+ export default Button
