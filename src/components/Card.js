@@ -61,6 +61,7 @@ function Info(props){
 }
 
 function AgregarBoton(props){
+    
     return(
         
         <button  className="Card-button">Agregar al Carrito</button>

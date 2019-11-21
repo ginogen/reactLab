@@ -5,13 +5,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Popup from "reactjs-popup";
 import './App.css';
-import Card from './Card';
+import CardItem from './Card';
 import Nav from './Nav';
 import ProductData from './ProductData';
 import Button from './Button';
 import Payment from './Payment';
+import MainContent from './MainContent';
 
 
 
@@ -20,7 +20,7 @@ import Payment from './Payment';
 
 function App() {
 
-    const Products = ProductData.map(prod => <Card key={prod.id} img={prod.img} title={prod.title} price={prod.price} description={prod.description} />)
+    const Products = ProductData.map(prod => <CardItem key={prod.id} img={prod.img} title={prod.title} price={prod.price} description={prod.description} />)
     
     
 
@@ -28,13 +28,20 @@ function App() {
     <Router>
     <div className="App">
       <Nav  />
-      <div style={{display: 'inline-flex', margin: 'auto', padding:'10px', flexWrap: 'nowrap'}}>
+      
+        <Switch>
+        <Route path="/Checkout" >
+        <Checkout />
+        </Route>
+        <Route path="/Payment" >
+        <Payment />
+        </Route>
+        <Route path="/" >
+          <MainContent />
+        <div style={{display: 'inline-flex', margin: 'auto', padding:'10px', flexWrap: 'nowrap'}}>
       {Products}
       </div>
       <Link to="/Checkout"><Button /></Link> 
-      <Switch>
-        <Route path="/Checkout" >
-        <Checkout />
         </Route>
       </Switch>
     </div>
